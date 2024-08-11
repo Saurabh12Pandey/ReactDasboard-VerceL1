@@ -19,7 +19,7 @@ const Home = () => {
           <Widget type="balance" />
         </div>
         <div className="charts">
-          <Chart title="Monthly Earning" aspect={2 / 1} />
+          <Chart title="Monthly Earning Chart" aspect={2 / 1} />
           <Featured />
           
         </div>
