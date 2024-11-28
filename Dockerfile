@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies (use --production for production builds)
-RUN npm install
+RUN npm install -g npm@10.9.1
 
 # Copy the rest of the application code
 COPY . .
