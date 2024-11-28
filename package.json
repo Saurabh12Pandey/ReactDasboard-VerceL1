@@ -43,6 +43,14 @@
       "react-app/jest"
     ]
   },
+  {
+  "dependencies": {
+    "react-scripts": "5.0.1",  // Ensure this line is present
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
+,
   "browserslist": {
     "production": [
       ">0.2%",
