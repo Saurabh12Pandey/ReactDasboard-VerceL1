@@ -28,8 +28,6 @@ pipeline {
         stage("deploy"){
             steps{
                 sh 'docker run -d -p 3000:3000 sp8970196621/saurabh:latest'
-                sh 'docker ps -a'  
-                sh 'docker logs $(docker ps -q)'
             }
         }
     }
